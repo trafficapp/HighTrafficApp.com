@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Oswaldbold';
+    src:  url('../font/Oswaldbold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Oswaldregular';
+    src:  url('../font/Oswaldregular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Droidsans';
+    src:  url('../font/Droidsans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{background: #000 url(../image/bg.jpg) top center no-repeat;}
+
+.container{  padding: 0px 26px 10px;}
+
+.headlinefont
+{color: #fff;
+text-align: center;
+font-weight: bold;
+font-family: 'Oswaldbold';
+font-size: 42px;
+  padding-bottom: 13px;
+  padding-top: 12px;
+}
+
+.videorow{
+  padding-top: 12px;
+}
+
+.subheadlinefont
+{
+  color: #fff;
+  text-align: center;
+  font-family: 'Droidsans';
+  font-size: 30px;
+  margin-top: -7px;
+}
+
+.progressbar img  {
+  margin: auto;
+}
+
+.progressbar{
+ padding: 12px 0px;
+}
+
+.headlinefont1{  color: #fff;
+  text-align: center;
+  font-family: 'Arial';
+  font-size: 26px;
+  padding: 11px 59px 76px;
+  background: url(../image/hedbor.png) top center no-repeat;
+  background-size: 100% 100%;
+  text-shadow: 1px 2px 1px #002F42;
+  line-height: 36px;
+}
+
+ .frcont{
+  padding: 0px 49px !important;
+  margin-top: -84px;
+}
+
+.click img{
+  margin: auto;
+}
+
+.col3{ padding: 0px 59px;text-align: center;width:100% !important;}
+
+.tpim1{
+  padding-top: 23px;
+}
+
+.tpim2{
+  padding-top: 7px;
+}
+
+.columnheading{
+  font-family: 'Oswaldbold';
+  color: #fff;
+  font-size: 23px;
+}
+
+.columnparagraph{
+  font-family: 'Droidsans';
+  color: #fff;
+  font-size: 14px;
+}
+
+
+.click {
+  padding-top: 25px;
+  padding-bottom: 24px;
+}
+
+.formcontain{
+  background: #000;
+  padding-top: 40px;
+}
+
+.vid{text-align:center;}
+   .vid img{  /*width: 100%;*/
+  max-width: 860px;
+  max-height: 540px;}
+
+iframe{
+  max-width: 860px;
+  max-height: 540px;
+}
+
+embed{
+ max-width: 960px;
+  max-height: 540px;
+}
+
+.video-plugin-new {
+  background: url("../image/bluestreamingbar.gif") no-repeat bottom center transparent;
+  max-width: 100%;
+  width: 718px;
+  height: 440px;
+  border: 1px solid #0f161f;
+  margin:auto;
+  }
+
+.video-plugin-new .fp-engine{
+  height: 420px;
+}
+
+.form1
+{
+  margin: auto;
+  width: 41%;
+  text-align: center;
+  /*margin-top: -19px;*/
+}
+
+input[type="text"]
+{
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 4px;
+  border: 1px solid #8B8A8A;
+  margin-bottom: 3px;
+}
+
+input[type="image"]
+{
+	margin:auto;
+}
+
+.calltoaction
+{
+ color: #fff;
+  font-size: 17px;
+  margin-top: 6px;
+  padding: 0px 81px;
+  line-height: 23px;
+}
+
+.calltoaction a {color:#fff;}
+
+.smalllink
+{
+  clear: both;
+  text-align: center;
+  border-top: 1px solid #4F4F4F;  
+  padding-top: 14px;width: 100% !important;
+  background: #000;
+padding-bottom: 10px;
+}
+
+.col3 .col-sm-4{
+  margin-bottom: 25px;
+}
+
+.smalllinkli
+{
+    list-style-type: none;
+  display: inline;
+  color: #fff;
+  font-size: 15px;
+  border-right: 1px solid #D8D8D8;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.smalllinkli a
+{
+	color: #fff;
+}
+
+.smalllinkli a:hover {
+  color: #fff !important;
+  
+}
+
+.lastlink{border:none;}
